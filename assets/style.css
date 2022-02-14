@@ -1,0 +1,138 @@
+body{
+    background-color: #9cd6fb;
+    font-size: 20px;
+    flex-direction: column;
+}
+
+/* Using textos */
+#divTextos{
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Using videos */
+.divVideos{
+    margin-left: 5px;
+}
+
+/* Using contact */
+.form {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  h2 {
+    text-align: center
+  }
+  
+  label{
+    text-align: center;
+    display: flex;
+    margin-left: 2vh;
+
+  }
+  
+  input, textarea {
+    width: 60%;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: 0;
+    color: #0a346b;
+    margin-left: 2vh;
+  }
+  
+  #txtNome, #txtEmail, #txtAssunto {
+    margin-bottom: .5rem;
+  }
+  
+  button {
+    padding: 5px 1rem;
+    width: 10%;
+    margin: 0 auto;
+    display: block;
+    background-color: #1876f285;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    color: #000000;
+    text-transform: uppercase;
+  }
+  button:hover {
+    background-color: #fcfcfc;
+    color: #151313;
+}
+
+/* Here footer */
+footer{
+    color: #000000;
+    text-align: center;
+    font-weight: 700;
+    
+}
+
+/* Using footer */
+.navbar{
+    display: flex;
+    justify-content:flex-end;
+    flex-wrap: wrap;
+    margin-bottom: 3vh;
+}
+.navbar p {
+    transform: translate(70px);
+}
+.box{
+    width: 65px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 0.4rem;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+.box:hover{
+    width: 200px;
+    background: #e264a7;
+    border-radius: 35px;
+    color: #ffffff;
+    box-shadow: 0 0 50px #b315917c;
+}
+.box:nth-child(2):hover{
+    background: #1877f2;
+    box-shadow: 0 0 50px #1876f285;
+}
+.box:nth-child(3):hover{
+    background: #6c8375;
+    box-shadow: 0 0 50px #282b297e;
+}
+
+.box .icon{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all .4s ease;
+}
+.instagram{
+    background-color: #e264a7;
+}
+.linkedin{
+    background-color: #1877f2;
+}
+.github{
+    background-color: #6c8375;
+}
+
+.box:hover .icon{
+    background: #ffffff;
+    color: #3b3b3b;
+    box-shadow: 0 0 20px rgba(0,0,0,0.26);
+}
