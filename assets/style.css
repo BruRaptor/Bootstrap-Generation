@@ -74,7 +74,7 @@ footer{
 /* Using footer */
 .navbar{
     display: flex;
-    justify-content:flex-end;
+    justify-content:center;
     flex-wrap: wrap;
     margin-bottom: 3vh;
 }
